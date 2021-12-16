@@ -1,5 +1,5 @@
 # Employee-Management-System
-![](public\page.png)
+![](page.png)
 
 ### `npm start`
 
