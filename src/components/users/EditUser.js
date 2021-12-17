@@ -18,7 +18,7 @@ const EditUser = () => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:3003/users/${id}`);
+    const result = await axios.get(`https://my-json-server.typicode.com/Vivek-Pandey1/demo/users/${id}`);
     setUser(result.data);
   };
 
@@ -28,7 +28,7 @@ const EditUser = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.put(`http://localhost:3003/users/${id}`, user);
+    await axios.put(`https://my-json-server.typicode.com/Vivek-Pandey1/demo/users/${id}`, user);
     history.push("/");
   };
 

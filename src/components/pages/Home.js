@@ -11,12 +11,12 @@ const Home = () => {
   }, []);
 
   const loadUsers = async () => {
-    const result = await axios.get("http://localhost:3003/users");
+    const result = await axios.get("https://my-json-server.typicode.com/Vivek-Pandey1/demo/users/");
     setUser(result.data.reverse());
   };
 
   const deleteUser = async id => {
-    await axios.delete(`http://localhost:3003/users/${id}`);
+    await axios.delete(`https://my-json-server.typicode.com/Vivek-Pandey1/demo/users/${id}`);
     loadUsers();
   };
   const [searchTerm, setSearchTerm] = useState("");
@@ -52,17 +52,17 @@ const Home = () => {
                 <td>{user.department}</td>
                 <td>{user.email}</td>
                 <td>
-                  <Link class="btn btn-primary mr-2" to={`/users/${user.id}`}>
+                  <Link className="btn btn-primary mr-2" to={`/users/${user.id}`}>
                     View
                   </Link>
                   <Link
-                    class="btn btn-outline-primary mr-2"
+                    className="btn btn-outline-primary mr-2"
                     to={`/users/edit/${user.id}`}
                   >
                     Edit
                   </Link>
                   <Link
-                    class="btn btn-danger"
+                    className="btn btn-danger"
                     onClick={() => deleteUser(user.id)}
                   >
                     Delete

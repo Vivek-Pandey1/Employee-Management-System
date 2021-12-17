@@ -11,7 +11,7 @@ const User = () => {
     webiste: ""
   });
   const loadUser = async () => {
-    const res = await axios.get(`http://localhost:3003/users/${id}`);
+    const res = await axios.get(`https://my-json-server.typicode.com/Vivek-Pandey1/demo/users/${id}`);
     setUser(res.data);
   };
   
