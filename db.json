@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yehudit",
+      "username": 57,
+      "email": "ymcfaell0@taobao.com",
+      "phone": "825-649-6836",
+      "department": "Research and Development"
+    },
+    {
+      "id": 2,
+      "name": "Lulu",
+      "username": 40,
+      "email": "lhiseman1@webeden.co.uk",
+      "phone": "570-386-1278",
+      "department": "Training"
+    },
+    {
+      "id": 3,
+      "name": "Irene",
+      "username": 25,
+      "email": "icabral2@nsw.gov.au",
+      "phone": "863-539-2968",
+      "department": "Services"
+    },
+    {
+      "id": 4,
+      "name": "Libby",
+      "username": 33,
+      "email": "ltewkesberrie3@tumblr.com",
+      "phone": "633-867-7794",
+      "department": "Training"
+    },
+    {
+      "id": 5,
+      "name": "Minna",
+      "username": 35,
+      "email": "mmetterick4@issuu.com",
+      "phone": "291-196-1600",
+      "department": "Services"
+    },
+    {
+      "id": 6,
+      "name": "Kerwinn",
+      "username": 54,
+      "email": "kedinburough5@odnoklassniki.ru",
+      "phone": "745-669-6528",
+      "department": "Marketing"
+    },
+    {
+      "id": 7,
+      "name": "Faustine",
+      "username": 74,
+      "email": "ftregian6@spotify.com",
+      "phone": "137-278-1318",
+      "department": "Services"
+    },
+    {
+      "id": 8,
+      "name": "Emmalynne",
+      "username": 38,
+      "email": "eshasnan7@usnews.com",
+      "phone": "778-243-0509",
+      "department": "Training"
+    },
+    {
+      "id": 9,
+      "name": "Erinna",
+      "username": 50,
+      "email": "eseymark8@delicious.com",
+      "phone": "601-511-1860",
+      "department": "Product Management"
+    },
+    {
+      "id": 10,
+      "name": "Nettle",
+      "username": 77,
+      "email": "nrushbrook9@forbes.com",
+      "phone": "616-347-9486",
+      "department": "Engineering"
+    },
+    {
+      "name": "Vivek Suresh Pandey",
+      "username": "123",
+      "email": "keviv2698@gmail.com",
+      "phone": "1235",
+      "department": "Hr",
+      "id": 11
+    }
+  ]
+}
