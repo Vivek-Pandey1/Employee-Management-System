@@ -8,7 +8,6 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  withRouter
 } from "react-router-dom";
 import NotFound from "./components/pages/NotFound";
 import AddUser from "./components/users/AddUser";

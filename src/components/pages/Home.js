@@ -40,7 +40,7 @@ const Home = () => {
           </thead>
           <tbody>
             {users.filter((user) =>{
-              if(searchTerm == ""){
+              if(searchTerm === ""){
                 return user;
               } else if(user.department.toLowerCase().includes(searchTerm.toLowerCase()) | user.name.toLowerCase().includes(searchTerm.toLowerCase())){
                 return user;

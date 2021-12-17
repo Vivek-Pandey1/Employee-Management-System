@@ -10,14 +10,16 @@ const User = () => {
     phone: "",
     webiste: ""
   });
-  const { id } = useParams();
-  useEffect(() => {
-    loadUser();
-  }, []);
   const loadUser = async () => {
     const res = await axios.get(`http://localhost:3003/users/${id}`);
     setUser(res.data);
   };
+  
+  const { id } = useParams();
+  useEffect(() => {
+    loadUser();
+  }, []);
+ 
   return (
     <div className="container py-4">
       <Link className="btn btn-primary" to="/">
