@@ -1,5 +1,5 @@
 # Employee-Management-System
-![](page.png)
+![](public/page.png)
 ## Run following command to start the application
 
 ## `Run the react app`
